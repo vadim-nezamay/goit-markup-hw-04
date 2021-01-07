@@ -79,7 +79,7 @@ body{
              display: block;
             padding-top: 32px;
             padding-bottom: 32px;
-            
+            text-decoration: none;
 
             color: #212121;
             font-style: 400;
@@ -96,12 +96,22 @@ body{
             
          /* Эффективные решения для вашего бизнеса */
     
-        .main-hiro{text-align: center;vertical-align:middle
-        }
-            .text {background: #2F303A;}
+        .main-hiro{text-align: center;vertical-align:middle}
+        
+
+            .text {background: #2F303A;
+            background-image: url(./imege/Img\ Overlay.png);
+            background-position: center;}
+
+            .overlay{width: 1600px;
+            height: 600px;
+            padding-top: 200px;
+            margin: 0 auto;}
+
+        
 
         .hiro-title{
-         margin-bottom:200px ;
+
         color: #FFFFFF;
         font-weight: 900;
         font-size: 44px;
@@ -109,7 +119,10 @@ body{
         text-align: center;
         margin-top: 0px;
         margin-bottom: 0px;
-        padding-bottom: 30px;}
+        padding-bottom: 30px;
+        width: 696px;
+        margin: 0 auto;
+       }
 
         /* Внимание к деталям,Пунктуальность,Планирование,Современные технологии*/
         h2{
@@ -191,12 +204,13 @@ justify-content: center;}
         line-height: 1.14;}
     
     .mobile, .mail{
-    
+        
     color: rgba(255, 255, 255, 0.6);
     font-style: 400;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7}
+    line-height: 1.7
+    text-decoration:none;}
     
     /* Все,Веб-сайты,Приложения,Дизайн,Маркетинг*/
 
@@ -239,7 +253,7 @@ justify-content: center;}
                 .background{background: #F5F4FA;}
                 ul{list-style: none;}
                 .my-address{padding-left: 0;}
-                .address{
+                .address{text-decoration: none;
                     font-family{ Roboto;
                     font-style: normal;
                     font-weight: normal;
@@ -291,8 +305,9 @@ justify-content: center;}
 
 .ul{margin-left: 0;
  margin-bottom: 0;
-padding-left: 0;}
+padding-left: 0; }
 .p{margin-left: 0;margin-bottom: 0;
 padding-left: 0;}
 .h1,h2,h3{margin-left: 0;margin-bottom: 0;
 padding-left: 0;}
+a{text-decoration: none;}
