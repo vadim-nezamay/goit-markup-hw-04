@@ -99,8 +99,8 @@ body{
         .main-hiro{text-align: center;vertical-align:middle}
         
 
-            .text {background: #2F303A;
-            background-image: url(./imege/Img\ Overlay.png);
+            .text  {background: #2F303A;
+            background-image:linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./imege/Img\ Overlay.png);
             background-position: center; margin-left: 0px;}
 
             .overlay{width: 1600px;
