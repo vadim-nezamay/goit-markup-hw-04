@@ -101,7 +101,7 @@ body{
 
             .text {background: #2F303A;
             background-image: url(./imege/Img\ Overlay.png);
-            background-position: center;}
+            background-position: center; margin-left: 0px;}
 
             .overlay{width: 1600px;
             height: 600px;
