@@ -1,0 +1,298 @@
+body{
+    background : #E5E5E5;
+    font-family: Roboto, sans-serif;}
+    /*лого шапка logo*/
+    .logo-start .logo {
+    font-style: 400;
+    font-weight: 700;
+    font-size: 1.2;
+    line-height: 31px;}
+    .logo-start{
+        color: #2196F3;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        
+        font-family: Raleway;
+        font-style:400;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.4;}
+    .logo{
+        margin-right: 93px;
+        color: #212121;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        
+        font-family: Raleway;
+        font-style: 400;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.4;}
+
+           
+    
+        .logo-my{
+    
+        color: #FFFFFF;
+    
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        
+        font-family: Raleway;
+        font-style: 400;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.4;}
+        /*список навигации link*/
+        .site-nav{text-align: center;}
+          /*КОМАНДЫ*/
+    .container{width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;}
+
+     .list{
+         display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none; 
+    align-items: center;}
+    
+        .mobi-mail{
+       display: flex;
+        margin-left: auto;
+        }
+             
+        .last-nav{display: flex; }
+
+        .navi-bar{margin-right: 50px;
+            display: flex;}
+            .navi:last-child{margin: 0px;}
+        .link {
+            display: flex;
+             display: block;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            
+
+            color: #212121;
+            font-style: 400;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;}
+               
+        .link:hover{
+            color: #2196F3;
+            font-style: 400;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.14;}
+            
+         /* Эффективные решения для вашего бизнеса */
+    
+        .main-hiro{text-align: center;vertical-align:middle
+        }
+            .text {background: #2F303A;}
+
+        .hiro-title{
+         margin-bottom:200px ;
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.4;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 30px;}
+
+        /* Внимание к деталям,Пунктуальность,Планирование,Современные технологии*/
+        h2{
+            color: #212121;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;}
+
+            .main-paragraph{display: flex;
+            margin-left: auto;margin-right: auto;text-align:left}
+    
+            .paragraph {
+            color: #757575;
+            font-style: 400;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;}
+    /* Чем мы занимаемся, Наша команда */
+
+    .lessons{text-align: center;}
+    .affair{display: flex; padding-left: 0px; }
+    .comm{margin-left: auto;
+    margin-right: auto;}
+
+    /* Наша команда имена */
+    .main-style{margin-left: auto;
+        margin-right: auto;}
+    .main-team{display: flex;padding-left: 0px }
+    .box{
+        display: flex;
+       color: #212121;
+       font-weight: 700;
+       font-size: 36px;
+       line-height: 1.2;
+justify-content: center;}
+
+
+    h3{
+    color: #212121;
+    
+    font-style: 400;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;}
+    
+    .team{
+        font-style: 400;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        color: #757575;}
+    
+    /*мобильный,мыло*/
+    .main-nav{
+        display: flex;
+        text-align: center;
+    }
+   
+
+   
+    .items:hover{
+        
+        color: #2196F3;
+        font-style: 400;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;}
+    .items{
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-right: 50px;
+
+        color: #757575;
+        font-style: 400;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;}
+    
+    .mobile, .mail{
+    
+    color: rgba(255, 255, 255, 0.6);
+    font-style: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7}
+    
+    /* Все,Веб-сайты,Приложения,Дизайн,Маркетинг*/
+
+        /* заголовки проектов */
+        
+            h3{
+            font-style: 400;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 2;
+            color: #212121;}
+            .last-items:last-child{
+                margin: 0px;}
+           
+      
+            .mast-team{ padding-left: 0px;
+            
+            display: flex;
+            flex-wrap: wrap;}
+           
+            .last-page{margin-left: auto;
+                margin-right: auto;
+            
+           }
+
+        
+
+           .last-page:nth-child(-n+3){
+            margin-bottom: 0px;}
+
+            .project{
+  
+                font-size: 16px;
+                line-height: 1.9;
+                color: #757575;}
+        
+     
+                
+
+                .background{background: #F5F4FA;}
+                ul{list-style: none;}
+                .my-address{padding-left: 0;}
+                .address{
+                    ffont-family{ Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 14px;
+                    line-height: 24px;
+                    /* or 171% */
+                    
+                    letter-spacing: 0.03em;
+               
+                color: #FFFFFF;}
+                a {text-decoration: none;} 
+                
+
+    .site-nav{margin-left: 93px;}
+    .bar{margin-left: auto;margin-right: auto;}
+    .header>.container{align-items: center;}
+    
+    .container-navigation{margin-left: 280px;}
+      
+    .button-site:hover{ 
+        color: #FFFFFF;}
+  .button-site{
+      
+    font-family: Roboto;
+    font-style: 400;
+     font-weight: 500;
+    font-size: 16px;
+     line-height: 1.6;
+    color: #212121;
+     min-width: 73px;
+     height: 38px;
+      background: #2196F3
+     ;border-radius: 4px;border: 1px solid transparent;
+    margin-left: 8px;}
+    .button-primery:hover{color: #212121;}
+
+.button-primery{ font-family: Roboto;
+    font-style: 400;
+     font-weight: 700;
+    font-size: 16px;
+     line-height: 1.8;
+     color:#FFFFFF;
+     
+     min-width: 200px;
+     height: 50px;
+      background: #2196F3
+     ;border-radius: 4px;border: 1px solid transparent;}
+     
+
+.ul{margin-left: 0;
+ margin-bottom: 0;
+padding-left: 0;}
+.p{margin-left: 0;margin-bottom: 0;
+padding-left: 0;}
+.h1,h2,h3{margin-left: 0;margin-bottom: 0;
+padding-left: 0;}
