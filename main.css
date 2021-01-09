@@ -158,7 +158,7 @@ body{
        font-weight: 700;
        font-size: 36px;
        line-height: 1.2;
-justify-content: center;}
+       justify-content: center;}
 
 
     h3{
@@ -179,8 +179,7 @@ justify-content: center;}
     /*мобильный,мыло*/
     .main-nav{
         display: flex;
-        text-align: center;
-    }
+        text-align: center;}
    
 
    
@@ -247,23 +246,23 @@ justify-content: center;}
                 line-height: 1.9;
                 color: #757575;}
         
-     
+                footer{background: #2F303A;}
                 
 
                 .background{background: #F5F4FA;}
+
                 ul{list-style: none;}
+
                 .my-address{padding-left: 0;}
-                .address{text-decoration: none;
-                    font-family{ Roboto;
-                    font-style: normal;
-                    font-weight: normal;
+
+                .add{font-family: Roboto;
+                    font-style:400;
+                    font-weight: 400;
                     font-size: 14px;
                     line-height: 24px;
-                    /* or 171% */
                     
-                    letter-spacing: 0.03em;
-               
-                color: #FFFFFF;}
+                    color: #FFFFFF;
+                    }
                 a {text-decoration: none;} 
                 
 
@@ -285,8 +284,8 @@ justify-content: center;}
     color: #212121;
      min-width: 73px;
      height: 38px;
-      background: #2196F3
-     ;border-radius: 4px;border: 1px solid transparent;
+      background: #2196F3;
+      border-radius: 4px;border: 1px solid transparent;
     margin-left: 8px;}
     .button-primery:hover{color: #212121;}
 
