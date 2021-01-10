@@ -238,12 +238,26 @@ body{
             .last-page{margin-left: auto;
                 margin-right: auto;}
 
-.my-network{padding-left: 0px;margin-left: 301px;
-margin-bottom: 100px;}
+.my-network{padding-left: 0px;align-items: center;}
 
 .network{display: flex;text-decoration: none;
      align-items: center;}
-              
+
+
+
+.clients{text-align: center;}
+
+.my-lera{ display: flex; margin-left: auto;
+margin-right: auto;justify-content: center;}
+
+.it-lera{margin-right: 15px;}
+
+.lera{height: 90px;
+width: 170px;
+
+border-radius: 4px;
+justify-content: center;
+display: flex; }
 
         .button-social{text-decoration: none;
         padding: 0;
