@@ -250,8 +250,9 @@ body{
 .my-lera{ display: flex; margin-left: auto;
 margin-right: auto;justify-content: center;}
 
-.it-lera{margin-right: 15px;}
+.it-lera{margin-right: 15px; }
 
+.it-lera:hover{background:  #2196F3;}
 .lera{height: 90px;
 width: 170px;
 
