@@ -64,15 +64,31 @@ body{
         list-style: none; 
     align-items: center;}
 
-    .button{padding: 0;
-    border: none;    background: #E5E5E5;}
     
-.button-smart{width: 16px;height: 12px;}
+
+  .button{
+      padding: 0;
+      border: none;
+    width: 44px; 
+    height: 44px;  
+border-radius: 50%;}
+
+.button:hover{background: #2196F3;}
+    
+.button-smart{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+
+width: 20px;
+ height: 20px; 
+
+padding: 0; 
+}
 
         .mobi-mail{
        display: flex;
-        margin-left: auto;
-        }
+        margin-left: auto;}
              
         .last-nav{display: flex; }
 
