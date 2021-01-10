@@ -238,16 +238,21 @@ body{
             .last-page{margin-left: auto;
                 margin-right: auto;}
 
-        .button-social{
+.my-network{padding-left: 0px;margin-left: 301px;
+margin-bottom: 100px;}
+
+.network{display: flex;text-decoration: none;
+     align-items: center;}
+              
+
+        .button-social{text-decoration: none;
         padding: 0;
         border: none; 
-        text-decoration: none; 
+        display: flex;
         background: #2F303A;
         height: 20px;
-width: 20px;
-
-border-radius: 0px;
-}
+        width: 20px;
+    justify-content: center;}
 
            .last-page:nth-child(-n+3){
             margin-bottom: 0px;}
