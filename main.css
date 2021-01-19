@@ -240,19 +240,11 @@ padding: 0;
             font-size: 18px;
             line-height: 2;
             color: #212121;}
-            .last-items:last-child{
-                margin: 0px;}
-           
-      
-            .mast-team{ padding-left: 0px;
             
-            display: flex;
-            flex-wrap: wrap;}
-           
-            .last-page{margin-left: auto;
-                margin-right: auto;}
+          
+        
 
-.my-network{}
+
 .button-social{text-decoration: none;
         padding: 0;
         border: none; 
@@ -282,10 +274,21 @@ border-radius: 4px;
 justify-content: center;
 display: flex; }
 
-        
+ .mast-last{justify-content: center; padding-left: 0px;
+   display: inline-flex;
+  display: flex;
+  flex-wrap: wrap; display: inline-flex}
+      
+ .mast-team {  
+     display: inline-flex;
+     justify-content: center; padding-left: 0px;
+      display: inline-flex;
+      display: flex;
+      flex-wrap: wrap;}
 
-           .last-page:nth-child(-n+3){
-            margin-bottom: 0px;}
+.last-page{padding-right: 30px;width: 370px; }
+
+.last-page:nth-child(3n + 3) {padding-right: 0px;}
 
             .project{
   
