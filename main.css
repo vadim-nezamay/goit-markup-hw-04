@@ -53,6 +53,7 @@ body{
         .site-nav{text-align: center;}
           /*КОМАНДЫ*/
     .container{width: 1170px;
+        justify-content: center;
     margin-right: auto;
     margin-left: auto;
     padding: 0 15px;}
@@ -286,7 +287,11 @@ display: flex; }
       display: flex;
       flex-wrap: wrap;}
 
-.last-page{padding-right: 30px;width: 370px; }
+      .last-page img {
+     width: 100%;}
+
+.last-page{margin-bottom: 30px;
+padding-right: 30px;width: 370px;}
 
 .last-page:nth-child(3n + 3) {padding-right: 0px;}
 
