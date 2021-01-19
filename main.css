@@ -120,29 +120,27 @@ padding: 0;
         .main-hiro{text-align: center;vertical-align:middle}
         
 
-            .text  {background: #2F303A;
-            background-image:linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./imege/Img\ Overlay.png);
-            background-position: center; margin-left: 0px;}
-
-            .overlay{width: 1600px;
+            .text{background: #2F303A;
+            background-image:linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./imege/Img_Overlay.png);
+            background-position: center;;}
+            .overlay {justify-content: center;
+             width: 1600px;
             height: 600px;
             padding-top: 200px;
-            margin: 0 auto;}
+         
+        }
 
         
 
         .hiro-title{
-
         color: #FFFFFF;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.4;
         text-align: center;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        padding-bottom: 30px;
+    margin-left: 250px;
         width: 696px;
-        margin: 0 auto;
+        
        }
 
         /* Внимание к деталям,Пунктуальность,Планирование,Современные технологии*/
@@ -254,10 +252,18 @@ padding: 0;
             .last-page{margin-left: auto;
                 margin-right: auto;}
 
-.my-network{padding-left: 0px;align-items: center;}
+.my-network{}
+.button-social{text-decoration: none;
+        padding: 0;
+        border: none; 
+        display: flex;
+        background: #2F303A;
+        height: 20px;
+        width: 20px;
+    justify-content: center;border-radius: 4px;}
 
 .network{display: flex;text-decoration: none;
-     align-items: center;}
+     align-items: center;margin-left: 300px;position: absolute;}
 
 
 
@@ -276,14 +282,7 @@ border-radius: 4px;
 justify-content: center;
 display: flex; }
 
-        .button-social{text-decoration: none;
-        padding: 0;
-        border: none; 
-        display: flex;
-        background: #2F303A;
-        height: 20px;
-        width: 20px;
-    justify-content: center;}
+        
 
            .last-page:nth-child(-n+3){
             margin-bottom: 0px;}
@@ -337,12 +336,15 @@ display: flex; }
     margin-left: 8px;}
     .button-primery:hover{color: #212121;}
 
+   
+
 .button-primery{ font-family: Roboto;
     font-style: 400;
      font-weight: 700;
     font-size: 16px;
      line-height: 1.8;
      color:#FFFFFF;
+     margin-right: 400px;
      
      min-width: 200px;
      height: 50px;
