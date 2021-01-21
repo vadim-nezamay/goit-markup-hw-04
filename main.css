@@ -52,11 +52,13 @@ body{
         /*список навигации link*/
         .site-nav{text-align: center;}
           /*КОМАНДЫ*/
-    .container{width: 1170px;
-        justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 0 15px;}
+    .container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
 
      .list{
          display: flex;
@@ -278,28 +280,36 @@ display: flex; }
  .mast-last{justify-content: center; padding-left: 0px;
    display: inline-flex;
   display: flex;
-  flex-wrap: wrap; display: inline-flex}
+   
+  flex-wrap: wrap;}
       
- .mast-team {  
+ .mast-team {
      display: inline-flex;
-     justify-content: center; padding-left: 0px;
-      display: inline-flex;
+     justify-content: center;
+     padding-left: 0px;
       display: flex;
-      flex-wrap: wrap;}
+      flex-wrap: wrap;
+   }
 
       .last-page img {
      width: 100%;}
+    .mi-project{text-align-last: left;
+    padding-left: 24px;padding-bottom: 20px;}
 
-.last-page{margin-bottom: 30px;
-padding-right: 30px;width: 370px;}
+.last-page{margin-right: 30px;margin-bottom: 30px;
+  justify-content: center;
+width: 370px; border: 1px solid #EEEEEE;
 
-.last-page:nth-child(3n + 3) {padding-right: 0px;}
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
 
-            .project{
-  
-                font-size: 16px;
-                line-height: 1.9;
-                color: #757575;}
+.last-page:nth-child(3n + 3) {margin-right: 0px;}
+
+
+.project {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #757575;}
+
         
                 footer{background: #2F303A;}
                 
