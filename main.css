@@ -246,13 +246,20 @@ padding: 0;
             
           
         
-
+.my-network{    
+    
+    padding: 0;
+      border: none;
+    width: 44px; 
+    height: 44px;  justify-content: center;
+border-radius: 50%;background: #2F303A;}
 
 .button-social{text-decoration: none;
-        padding: 0;
+    
+        margin-right: 0px;
         border: none; 
         display: flex;
-        background: #2F303A;
+        color:#FFFFFF;;
         height: 20px;
         width: 20px;
     justify-content: center;border-radius: 4px;}
@@ -260,7 +267,17 @@ padding: 0;
 .network{display: flex;text-decoration: none;
      align-items: center;margin-left: 300px;position: absolute;}
 
+.net{font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 
+color: #FFFFFF;}
+
+.my-network:hover{background: #2196F3;}
 
 .clients{text-align: center;}
 
