@@ -1,5 +1,5 @@
 body{
-    background : #E5E5E5;
+  
     font-family: Roboto, sans-serif;}
     /*лого шапка logo*/
     .logo-start .logo {
@@ -70,15 +70,17 @@ margin-right: auto;
     
 
   .button{
-      padding: 0;
-      border: none;
-    width: 44px; 
-    height: 44px;  
+     background: #FFFFFF;color: #757575;
+padding: 0;
+border: none;
+width: 44px; 
+height: 44px;  
 border-radius: 50%;}
 
 .button:hover{background: #2196F3;}
     
 .button-smart{
+
 display: flex;
 margin-left: auto;
 margin-right: auto;
@@ -88,6 +90,7 @@ width: 20px;
 
 padding: 0; 
 }
+.tel-button{border: none;background: #FFFFFF;}
 
         .mobi-mail{
        display: flex;
@@ -255,11 +258,12 @@ padding: 0;
 border-radius: 50%;background: #2F303A;}
 
 .button-social{text-decoration: none;
-    
+   margin-left: 12px;
         margin-right: 0px;
         border: none; 
         display: flex;
-        color:#FFFFFF;;
+        color:#FFFFFF;
+
         height: 20px;
         width: 20px;
     justify-content: center;border-radius: 4px;}
@@ -284,13 +288,17 @@ color: #FFFFFF;}
 .my-lera{ display: flex; margin-left: auto;
 margin-right: auto;justify-content: center;}
 
-.it-lera{margin-right: 15px; }
+.it-lera{margin-right: 15px;border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+border-radius: 4px; }
 
 .it-lera:hover{background:  #2196F3;}
-.lera{height: 90px;
+.lera{
+height: 90px;
 width: 170px;
 
-border-radius: 4px;
+
 justify-content: center;
 display: flex; }
 
