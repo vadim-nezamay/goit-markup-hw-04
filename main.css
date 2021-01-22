@@ -283,8 +283,12 @@ border-radius: 50%;background: #2F303A;}
         width: 20px;
     justify-content: center;border-radius: 4px;}
 
-.network{display: flex;text-decoration: none;
-     align-items: center;margin-left: 300px;position: absolute;}
+.network{display: flex;
+    text-decoration: none;
+     align-items: center;
+     padding-left: 301px;
+     position: absolute;
+    padding-top: 72px;}
 
 .net{font-family: Roboto;
 font-style: normal;
@@ -294,16 +298,22 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 
+
 color: #FFFFFF;}
 
 .my-network:hover{background: #2196F3;}
-
+.mi-network{padding-top: 73px;
+    padding-bottom: 60px;
+padding-left: 0px;}
 .clients{text-align: center;
     padding-top: 93px;
     padding-bottom: 50px;}
 
-.my-lera{ display: flex; margin-left: auto;
-margin-right: auto;justify-content: center;}
+.my-lera{ display: flex;
+     margin-left: auto;
+margin-right: auto;
+justify-content: center;
+padding-bottom: 94px;}
 
 .it-lera{margin-right: 15px;border: 1px solid #AFB1B8;
 box-sizing: border-box;
