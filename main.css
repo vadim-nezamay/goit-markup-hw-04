@@ -67,7 +67,9 @@ margin-right: auto;
         list-style: none; 
     align-items: center;}
 
-    .it-smart{padding-top: 16px;padding-bottom: 30px;justify-content: center;}
+    .it-smart{padding-top: 16px;
+        padding-bottom: 30px;
+        justify-content: center;}
 
   .button{
      background: #FFFFFF;color: #757575;
@@ -182,16 +184,20 @@ padding: 0;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.main-boxi{background: #F5F4FA; padding-top: 94px;
+.main-boxi{background: #F5F4FA;
+     padding-top: 94px;margin-bottom: 94px;
   
 height: 648px;}
 
+
 .main-team {
 display: flex;
-padding-left: 0px;}
+padding-left: 0px;
+
+}
 
 .boxi {
- 
+ padding-bottom: 50px;
   font-weight: 264px;
   font-size: 42px;
   display: flex;
@@ -306,7 +312,7 @@ color: #FFFFFF;}
     padding-bottom: 60px;
 padding-left: 0px;}
 .clients{text-align: center;
-    padding-top: 93px;
+  
     padding-bottom: 50px;}
 
 .my-lera{ display: flex;
