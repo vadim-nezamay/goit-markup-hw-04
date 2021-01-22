@@ -67,7 +67,7 @@ margin-right: auto;
         list-style: none; 
     align-items: center;}
 
-    
+    .it-smart{padding-top: 16px;padding-bottom: 30px;justify-content: center;}
 
   .button{
      background: #FFFFFF;color: #757575;
@@ -187,16 +187,11 @@ padding: 0;
 height: 648px;}
 
 .main-team {
-
-
-  display: flex;
-  padding-left: 0px;
-
-  padding-bottom: 94px;
-}
+display: flex;
+padding-left: 0px;}
 
 .boxi {
- padding-bottom: 50px;
+ 
   font-weight: 264px;
   font-size: 42px;
   display: flex;
@@ -204,8 +199,7 @@ height: 648px;}
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  justify-content: center;
-}
+  justify-content: center;}
 
     h3{
     color: #212121;
@@ -304,7 +298,9 @@ color: #FFFFFF;}
 
 .my-network:hover{background: #2196F3;}
 
-.clients{text-align: center;}
+.clients{text-align: center;
+    padding-top: 93px;
+    padding-bottom: 50px;}
 
 .my-lera{ display: flex; margin-left: auto;
 margin-right: auto;justify-content: center;}
