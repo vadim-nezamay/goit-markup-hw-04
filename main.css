@@ -174,17 +174,38 @@ padding: 0;
     margin-right: auto;}
 
     /* Наша команда имена */
-    .main-style{margin-left: auto;
-        margin-right: auto;}
-    .main-team{display: flex;padding-left: 0px }
-    .box{
-        display: flex;
-       color: #212121;
-       font-weight: 700;
-       font-size: 36px;
-       line-height: 1.2;
-       justify-content: center;}
+  .rov{padding:30px ;}
+.main-style {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.main-boxi{background: #F5F4FA; padding-top: 94px;
+  
+height: 648px;}
 
+.main-team {
+
+
+  display: flex;
+  padding-left: 0px;
+
+  padding-bottom: 94px;
+}
+
+.boxi {
+ padding-bottom: 50px;
+  font-weight: 264px;
+  font-size: 42px;
+  display: flex;
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  justify-content: center;
+}
 
     h3{
     color: #212121;
@@ -403,3 +424,5 @@ padding-left: 0;}
 .h1,h2,h3{margin-left: 0;margin-bottom: 0;
 padding-left: 0;}
 a{text-decoration: none;}
+*{margin:0;}
+.a.span.button{margin: 0;}
