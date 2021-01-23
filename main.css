@@ -74,10 +74,13 @@ margin-right: auto;
   .button{
      background: #FFFFFF;color: #757575;
 padding: 0;
+margin-right: 10px;
 border: none;
 width: 44px; 
 height: 44px;  
 border-radius: 50%;}
+
+.button:last-child{margin-right: 0px;}
 
 .button:hover{background: #2196F3;}
     
@@ -88,10 +91,14 @@ margin-left: auto;
 margin-right: auto;
 
 width: 20px;
- height: 20px; 
-
-padding: 0; 
+ height: 20px; }
+ .button svg:hover #icon-instagram-2 { 
+  fill: #FFFFFF;
 }
+
+ 
+
+
 .tel-button{border: none;background: #FFFFFF;}
 
         .mobi-mail{
@@ -200,7 +207,7 @@ padding: 0;
 .main-team {
 display: flex;
 padding-left: 0px;
-padding-bottom: 93px;
+padding-bottom: 94px;
 
 }
 
