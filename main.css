@@ -93,11 +93,7 @@ margin-right: auto;
 width: 20px;
  height: 20px; }
  .button svg:hover #icon-instagram-2 { 
-  fill: #FFFFFF;
-}
-
- 
-
+  fill: #FFFFFF;}
 
 .tel-button{border: none;background: #FFFFFF;}
 
@@ -168,17 +164,33 @@ width: 20px;
 
             .rectangle{width: 270px;height: 120px;
                 background: #F5F4FA;
-                border-radius: 4px;}
+                border-radius: 4px;
+                margin-right: 30px;
+            }
+            .rectangle:nth-last-child{margin-right: 0px;}
 
             .main-paragraph{display: flex;
-            margin-left: auto;margin-right: auto;text-align:left}
+           
+            text-align:left;
+            padding-top: 94px;
+            padding-left: 0px;
+            ;margin-bottom: 30px;
+        }
     
             .paragraph {
-            color: #757575;
-            font-style: 400;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 1.7;}
+width: 270px;height: 75px;
+
+             padding-top: 10px;
+            font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+          
+
+letter-spacing: 0.03em;
+
+color: #757575;  }
     /* Чем мы занимаемся, Наша команда */
 
     .lessons{text-align: center;}
