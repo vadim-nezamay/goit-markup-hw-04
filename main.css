@@ -77,20 +77,15 @@ stroke:inherit;
 stroke-width:inherit;
 
 }
-        .button:hover {
-            fill:red;
-        }
+       
 
 
 
-.button:hover, .button:focus {
-  fill: #ff715b;
-}
+
 
   .button{
-        cursor: pointer;
-  fill: #1ea896;
-background: #FFFFFF;
+        cursor: pointer;background: #E5E5E5;
+color:  #AFB1B8;
 padding: 0;
 margin-right: 10px;
 border: none;
@@ -100,14 +95,18 @@ border-radius: 50%;}
 
 .button:last-child{margin-right: 0px;}
 
-.button:hover{background: #2196F3; }
+.button:hover{color: #FFFFFF; background: #2196F3; }
+
+
+
+.button-smart{fill: #afb1b8;
     
-.button-smart{ 
 display: flex;
 margin-left: auto;
 margin-right: auto;
 width: 20px;
-height: 20px; }
+height: 20px; 
+fill: currentColor;}
 
 
 
@@ -378,21 +377,27 @@ padding-top: 60px;}
      margin-left: auto;
 margin-right: auto;
 justify-content: center;
-padding-bottom: 94px;}
+padding-bottom: 94px;
+color: lawngreen;}
 
-.it-lera{margin-right: 15px;border: 1px solid #AFB1B8;
+.it-lera{margin-right: 15px;
+border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
-border-radius: 4px; }
+border-radius: 4px; 
+color: khaki;}
 
-.it-lera:hover{background:  #2196F3;}
+.it-lera:hover{background: #E5E5E5; color: #2196F3;;
+    border: 1px solid #2196F3;}
 .lera{
+    fill: #AFB1B8;
 height: 90px;
 width: 170px;
 
 
 justify-content: center;
 display: flex; }
+.lera:hover{fill: #2196F3;}
 
  .mast-last{justify-content: center; padding-left: 0px;
    display: inline-flex;
