@@ -211,8 +211,13 @@ letter-spacing: 0.03em;
 
 color: #757575;  }
     /* Чем мы занимаемся, Наша команда */
+.less{padding-top: 94px;
 
-    .lessons{text-align: center;}
+}
+
+
+    .lessons{text-align: center;
+    padding-bottom: 50px;}
     .affair{
     display: flex;
      padding-left: 0px;
