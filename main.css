@@ -51,6 +51,9 @@ body{
         line-height: 1.4;}
         /*список навигации link*/
         .site-nav{text-align: center;}
+
+        hr{border: 1px solid #ECECEC;}
+
           /*КОМАНДЫ*/
     .container {
 width: 1200px;
@@ -95,11 +98,11 @@ border-radius: 50%;}
 
 .button:last-child{margin-right: 0px;}
 
-.button:hover{color: #FFFFFF; background: #2196F3; }
 
 
+.button-smart:hover{fill: #2196F3; }
 
-.button-smart{fill: #afb1b8;
+.button-smart{color: #757575;
     
 display: flex;
 margin-left: auto;
@@ -236,11 +239,12 @@ color: #757575;  }
 .main-team {
 display: flex;
 padding-left: 0px;
-padding-bottom: 94px;
 
+padding-bottom: 94px;
 }
 
 .boxi {padding-top: 94px;
+    
  padding-bottom: 50px;
   font-weight: 264px;
   font-size: 42px;
@@ -339,7 +343,7 @@ background: #40414b;}
         display: flex;
         color:#FFFFFF;
 
-        height: 20px;
+        height: 23px;
         width: 20px;
     
     border-radius: 4px;}
@@ -416,7 +420,7 @@ display: flex; }
       .last-page img {
      width: 100%;}
     .mi-project{text-align-last: left;
-    padding-left: 24px;padding-bottom: 20px;}
+    padding: 24px 20px;}
 
 .last-page{margin-right: 30px;margin-bottom: 30px;
   justify-content: center;
@@ -457,12 +461,15 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     .bar{margin-left: auto;margin-right: auto;}
     .header>.container{align-items: center;}
     
-    .container-navigation{margin-left: 280px;}
+    .container-navigation{
+       margin-left: 566px;
+    padding-top: 93px;
+padding-bottom: 50px;}
       
     .button-site:hover{ 
-        color: #FFFFFF;}
+      color: #FFFFFF; background: #2196F3; }
   .button-site{
-      
+      background: #F5F4FA;
     font-family: Roboto;
     font-style: 400;
      font-weight: 500;
@@ -471,7 +478,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
     color: #212121;
      min-width: 73px;
      height: 38px;
-      background: #2196F3;
+      
       border-radius: 4px;border: 1px solid transparent;
     margin-left: 8px;}
     .button-primery:hover{color: #212121;}
@@ -502,4 +509,4 @@ padding-left: 0;}
 a{text-decoration: none;}
 *{margin:0;}
 .a.span.button{margin: 0;}
-.button{background-repeat: 0px;}
+.button{background-repeat: 0px;}.
