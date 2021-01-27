@@ -82,12 +82,9 @@ stroke-width:inherit;
 }
        
 
-
-
-
-
   .button{
-        cursor: pointer;background: #E5E5E5;
+cursor: pointer;
+background: #E5E5E5;
 color:  #AFB1B8;
 padding: 0;
 margin-right: 10px;
@@ -97,10 +94,10 @@ height: 44px;
 border-radius: 50%;}
 
 .button:last-child{margin-right: 0px;}
+.button:hover{background: #2196F3;}
 
 
-
-.button-smart:hover{fill: #2196F3; }
+.button-smart:hover{fill: #2196F3;}
 
 .button-smart{color: #757575;
     
@@ -109,6 +106,8 @@ margin-left: auto;
 margin-right: auto;
 width: 20px;
 height: 20px; 
+
+
 fill: currentColor;}
 
 
