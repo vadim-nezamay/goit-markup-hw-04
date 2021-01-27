@@ -97,7 +97,7 @@ border-radius: 50%;}
 .button:hover{background: #2196F3;}
 
 
-.button-smart:hover{fill: #2196F3;}
+.button-smart:hover{fill:#FFFFFF;;}
 
 .button-smart{color: #757575;
     
@@ -284,10 +284,7 @@ padding-bottom: 94px;
     .items:hover{
         
         color: #2196F3;
-        font-style: 400;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;}
+        }
     .items{
         display: block;
         padding-top: 32px;
@@ -300,6 +297,7 @@ padding-bottom: 94px;
         font-size: 14px;
         line-height: 1.14;}
 
+        .last-items
         
     
     .mobile, .mail{
