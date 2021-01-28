@@ -85,7 +85,20 @@ stroke:inherit;
 stroke-width:inherit;
 
 }
-       
+
+.button:hover{
+    background: #2196F3;
+
+}
+
+.smart:hover{
+    background: #2196F3;
+    fill:  #FFFFFF;
+}
+   
+.smart{
+    fill: #AFB1B8;
+}
 
   .button{
 cursor: pointer;
