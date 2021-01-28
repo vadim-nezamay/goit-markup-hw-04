@@ -91,25 +91,31 @@ stroke-width:inherit;
 
 }
 
-.smart:hover{
-    background: #2196F3;
-    fill:  #FFFFFF;
-}
    
-.smart{
-    fill: #AFB1B8;
-}
+.smart-link{
 
-  .button{
-cursor: pointer;
-background: #E5E5E5;
-color:  #AFB1B8;
-padding: 0;
-margin-right: 10px;
+color: #AFB1B8;
+background-color: #FFFFFF;
 border: none;
-width: 44px; 
-height: 44px;  
-border-radius: 50%;}
+display: inline-flex;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+justify-content: center;}
+
+  
+.smart-link:focus,
+.smart-link:hover{
+    color: #FFFFFF;
+    ;background-color:#2196F3;
+}
+.smart-icon{
+    
+     
+    
+    fill: currentColor;}
+
 
 .button:last-child{margin-right: 0px;}
 
