@@ -2,6 +2,9 @@ body{
   
     font-family: Roboto, sans-serif;}
     /*лого шапка logo*/
+.site-nav .list{ margin-right: auto;
+    margin-right: auto; margin-left: 0px;}
+
     .logo-start .logo {
     font-style: 400;
     font-weight: 700;
@@ -50,7 +53,9 @@ body{
         font-size: 26px;
         line-height: 1.4;}
         /*список навигации link*/
-        .site-nav{text-align: center;}
+        .site-nav{text-align: center;
+        margin-right: auto;
+    margin-right: auto;}
 
         hr{border: 1px solid #ECECEC;}
 
@@ -94,31 +99,23 @@ height: 44px;
 border-radius: 50%;}
 
 .button:last-child{margin-right: 0px;}
-.button:hover{background: #2196F3;color:#FFFFFF;}
 
 
-.button-smart:hover{fill:#FFFFFF;;}
 
-.button-smart{color: #757575;
-    
-display: flex;
-margin-left: auto;
-margin-right: auto;
-width: 20px;
-height: 20px; 
-
-
+.button-smart{
+margin-right: 10px;
 fill: currentColor;}
 
 
 
 
-.tel-button{border: none;background: #FFFFFF;}
+.tel-button{border: none;
+    background: #FFFFFF;}
 
 .mobi-mail{
  display: flex;
- margin-left: auto;
-}
+ text-align: center;
+margin-left: 90px;}
              
         .last-nav{display: flex; }
 
@@ -147,28 +144,44 @@ fill: currentColor;}
             
          /* Эффективные решения для вашего бизнеса */
     
-        .main-hiro{text-align: center;vertical-align:middle}
+        .main-hiro{text-align: center;vertical-align:middle;margin-left: auto;
+        margin-right: auto;}
         
 
             .text{background: #2F303A;
-            background-image:linear-gradient(to bottom, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./imege/Img_Overlay.png);
-            background-position: center;;}
-            .overlay {justify-content: center;
-             width: 1600px;
-            height: 600px;
+            background-image:linear-gradient(to bottom, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),
+             url(./imege/Img_Overlay.png);
+            background-position: center;
+       margin-right: auto;
+                margin-left: auto;
+      width: 1600px;
+    height: 600px;}
+            .overlay {margin-right: auto;
+                margin-left: auto;
+            
+            
             padding-top: 200px;
          
         }
 
-        
+       
 
         .hiro-title{
-        color: #FFFFFF;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.4;
-        text-align: center;
-    margin-left: 250px;
+            padding-bottom: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
         width: 696px;
         
        }
@@ -266,6 +279,7 @@ padding-bottom: 94px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;}
+    .last-items{text-align: right;}
     
     .team{
         font-style: 400;
@@ -279,17 +293,17 @@ padding-bottom: 94px;
         display: flex;
         text-align: center;}
    
+.items:hover{ color:  #2196F3;}
 
-   
-    .items:hover{
-        
-        color: #2196F3;
-        }
+.items:nth-last-child{margin-right: 0px;}
+  
     .items{
+        
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
         margin-right: 50px;
+      
 
         color: #757575;
         font-style: 400;
@@ -297,11 +311,10 @@ padding-bottom: 94px;
         font-size: 14px;
         line-height: 1.14;}
 
-        .last-items
-        
-    
+
+
     .mobile, .mail{
-       padding-top: 9px;
+    padding-top: 9px;
     color: rgba(255, 255, 255, 0.6);
     font-style: 400;
     font-weight: 400;
@@ -459,7 +472,6 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
                 a {text-decoration: none;} 
                 
 
-    .site-nav{margin-left: 93px;}
     .bar{margin-left: auto;margin-right: auto;}
     .header>.container{align-items: center;}
     
@@ -493,7 +505,7 @@ padding-bottom: 50px;}
     font-size: 16px;
      line-height: 1.8;
      color:#FFFFFF;
-     margin-right: 400px;
+   
      
      min-width: 200px;
      height: 50px;
