@@ -227,7 +227,9 @@ color: #FFFFFF;
             padding-left: 0px;
             ;margin-bottom: 30px;
         }
-    
+    .wpt{
+        padding-top: 10px;}
+
             .paragraph {
 width: 270px;height: 75px;
 
@@ -261,6 +263,8 @@ color: #757575;  }
     /* Наша команда имена */
   .rov{padding:30px ;}
 .main-style {
+    background-color: #fff;
+    padding-bottom: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
