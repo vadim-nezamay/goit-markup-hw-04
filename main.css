@@ -431,18 +431,20 @@ padding-top: 60px;}
 margin-right: auto;
 justify-content: center;
 padding-bottom: 94px;
-color: lawngreen;}
+}
 
-.it-lera{margin-right: 15px;
+.it-lera{margin-right: 15px;background: #FFFFFF;
 border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
+padding-right: 0px;
+padding-left: 0px;
 border-radius: 4px; 
-color: khaki;}
+}
 
 .it-lera:hover{background: #E5E5E5; color: #2196F3;;
     border: 1px solid #2196F3;}
-.lera{
+.lera{background: #FFFFFF;
     fill: #AFB1B8;
 height: 90px;
 width: 170px;
