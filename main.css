@@ -427,11 +427,12 @@ border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
 border-radius: 4px; 
-color: khaki;}
+color: khaki;   background: #FFFFFF;}
 
-.it-lera:hover{background: #E5E5E5; color: #2196F3;;
+.it-lera:hover{ color: #2196F3;
     border: 1px solid #2196F3;}
 .lera{
+ 
     fill: #AFB1B8;
 height: 90px;
 width: 170px;
